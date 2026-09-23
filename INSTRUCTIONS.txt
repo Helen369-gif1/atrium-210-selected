@@ -1,0 +1,15 @@
+1. Unzip and open the atrium-210-selected folder in VS Code.
+2. Right-click index.html → Open with Live Server.
+3. Drag the panorama with your mouse or finger.
+
+Rotation is limited to 105° from center in each direction (about 210° total).
+Vertical tilt is limited to 12°. There is no walking around the room.
+
+IMAGE — the panorama you provided, which matches the first ChatGPT
+generation. This is a check of the controls and composition, not an
+improved panorama. Its size is only 1774×887 pixels, so quality will be
+soft on a large screen. A high-quality version requires the original
+high-resolution panorama from Panoee or new consistent room views
+shot/rendered from a single point.
+
+All files are included, no internet required. The existing site is unchanged.

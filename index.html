@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#21160d">
-  <title>Атриум — обзор 210°</title>
+  <title>Atrium — 210° View</title>
   <style>
     :root { color-scheme: dark; font-family: Arial, Helvetica, sans-serif; }
     * { box-sizing: border-box; }
@@ -26,14 +26,14 @@
   </style>
 </head>
 <body>
-  <div id="viewer" aria-label="Панорама атриума с ограниченным поворотом, поворачивайте мышью или пальцем"></div>
+  <div id="viewer" aria-label="Atrium panorama with limited rotation, drag with mouse or finger to look around"></div>
   <div class="veil"></div>
-  <div class="top"><div class="eyebrow">Интерактивный обзор · 210°</div><h1>Атриум</h1></div>
+  <div class="top"><div class="eyebrow">Interactive view · 210°</div><h1>Atrium</h1></div>
   <div class="bottom">
-    <div class="left"><button id="center" type="button">Вернуться к центру</button><button id="fullscreen" type="button">На весь экран</button></div>
-    <span class="hint">Потяните мышкой или пальцем · обзор ограничен, чтобы сохранять композицию</span>
+    <div class="left"><button id="center" type="button">Return to center</button><button id="fullscreen" type="button">Fullscreen</button></div>
+    <span class="hint">Drag with mouse or finger · view is limited to preserve composition</span>
   </div>
-  <div id="error" role="alert">Не удалось открыть 3D просмотр. Запустите index.html через Live Server в VS Code и обновите страницу.</div>
+  <div id="error" role="alert">Could not open 3D view. Run index.html through Live Server in VS Code and refresh the page.</div>
   <script type="module" src="./viewer.js"></script>
 </body>
 </html>
